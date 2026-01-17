@@ -15,6 +15,12 @@ html, body {
     overflow-x: hidden!important;
 }
 
+button:hover {
+    background-color: transparent;
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+}
+
 .gravitas-font {
   font-family: "Gravitas One"!important;
   font-weight: 800;
